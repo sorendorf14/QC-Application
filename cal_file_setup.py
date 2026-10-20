@@ -20,12 +20,7 @@
 import numpy as np
 import os
 import pandas as pd 
-#all_filenames = pd.read_csv('/Users/sorendorf/Desktop/filenames_sophie_stable.csv',usecols=[0,1],index_col='var_name')
-all_filenames = pd.read_csv('/Users/sorendorf/Desktop/filenames_notamrdc.csv',usecols=[0,1],index_col='var_name')
-
-#id_file = '/Users/sorendorf/Desktop/id-c.dat'
-#id_csv = '/Users/sorendorf/Desktop/id_dat.csv'
-
+all_filenames = pd.read_csv('/Users/username/filenames.csv',usecols=[0,1],index_col='var_name')
 cal_file = all_filenames.loc['cal_file'].values[0] 
 if os.path.exists(cal_file) and 'calib' in str(cal_file):
     id_list = []
@@ -87,8 +82,6 @@ elif os.path.exists(cal_file) and 'dat' in cal_file:
         print('Loaded id.dat with Station ID')
     except:
         cal_df.columns = ['Name','Short_Name','Lat','Lon','Elevation']
-        #id_df = pd.read_csv(id_file,sep='\s\s+', dtype='str',names=['Name','Short_Name','Lat','Lon','Elevation'],engine='python')
-        #id_df = pd.read_csv(id_file,sep='\s{2,}', names=['Name','Short_Name','Lat','Lon','Elevation'],engine='python')
         # You can comment the following out if you do not want any changes made to the lat/lon
         cal_df['Lon'] = np.where(cal_df['Lon'].str[0] == '-',cal_df['Lon'].str.strip('-')+'W', cal_df['Lon']+'E') 
         cal_df['Lat'] = np.where(cal_df['Lat'].str[0] == '-',cal_df['Lat'].str.strip('-')+'S', cal_df['Lat']+'N')
