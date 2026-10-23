@@ -5,7 +5,7 @@ You will need files like these as input, but these are just examples of AMRDC's 
 
 There is further information on the file naming formats, file path explanation, and how some of these are input to the code using filenames.csv in the [File Organization Wiki Page]().
 
-Some of the input files are also output files, depending on what version of the code you are running (e.g., hry202003raw.txt).
+Some of the input files are also output files, depending on what version of the code you are running (e.g., hry202011raw.txt).
 
 The following table will outline each input file within this folder, an explanation of the file, and the generic file naming scheme. If you alter the naming scheme in both the code and `filenames.csv`, this will not be relevant; however, it will give you an idea of what is needed for input data to run the code (even if you have different file formatting). The first table will be the standard file format and usage. The second table will cover the different files needed for the tall tower version of the code. A rreadme (link) gives column/variable information for all of the files .
 
@@ -40,5 +40,5 @@ Example of tall tower AWS with Elijah Tall Tower AWS (ID: 99616) for January 202
 filenames.csv and id.dat are also used. if the data were previously QC'ed, the raw file detailed above will be used as defined above, but with additional variables. 
 | Example Input File  | Explanation | File Naming Format |
 | ------------- | ------------- | ------------- |
-| ElijahTallTower.20250121.txt| Daily input files that are used in `tt_create_dotr_dot10.py` to create a csv file, along with standard and all variable .r, .10 files. A rreadme (link) gives column/variable information.  All the files for the month are read into the code to create one monthly file. | Name.YYYYMMDD.txt|
+| ElijahTallTower.20250121.txt| Daily input files that are used in `tt_create_dotr_dot10.py` to create a csv file, along with standard and all variable .r, .10 files. A readme (link) gives column/variable information.  All the files for the month are read into the code to create one monthly file. | Name.YYYYMMDD.txt|
 | 996160125.csv | Monthly csv file with input data. The file naming is station ID number, month, year abbreviation - last two digits of the year. | #####MMYY.csv |
