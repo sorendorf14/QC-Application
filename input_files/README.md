@@ -1,4 +1,5 @@
 # Input File Package Readme
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/dash.svg?color=dark-green)](https://www.python.org/downloads/)
 
 ## Example Input Files
 You will need files like these as input, but these are just examples of AMRDC's AWS data.  Edit your AWS file formats to match these input file format or alter the code to read in your data format. Some of these files only need to have certain lines of the file altered (e.g., filenames.csv), where others need to be redone for your AWS information (id.dat) and data (e.g., 089000320.r)
