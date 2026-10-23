@@ -28,7 +28,6 @@ setting up for our .r files and their formatting. will need to be some changes d
 explain tall tower file differences
 Example of tall tower AWS with Elijah Tall Tower AWS (ID: 99616) for January 2025.
 
-
 ## Tall Tower Generating Monthly Files List
 These files will only be output if you run `tt_create_dotr_dot10.py` to match the standard formatting of AMRDC's data files. Only variables at 4m will be included in the standard .r files, but all standard meteorological variables at all heights are included in the files with `_all` included in the file name. The csv is a standard csv with all the standard meteorological variables at all levels. Refer to "  COLUMN README  " for further explanation  
 
