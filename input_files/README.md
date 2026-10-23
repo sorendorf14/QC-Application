@@ -1,7 +1,7 @@
 # Input File Package Readme
 
 ## Example Input Files
-You will need files like these as input, but these are just examples of AMRDC's AWS data.  Edit your AWS file formats to match these input file format or alter the code to read in your data format. Some of these files only need to have certain lines of the file altered (e.g., filenames.csv), where others need to be redone for your AWS information (id.dat) and data (e.g., 089000320.r)
+You will need files like these as input, but these are just examples of AMRDC's AWS data.  Edit your AWS file formats to match these input file format or alter the code to read in your data format. Some of these files only need to have certain lines of the file altered (e.g., filenames.csv), where others need to be redone for your AWS information (id.dat) and data (e.g., 089001120.r)
 
 There is further information on the file naming formats, file path explanation, and how some of these are input to the code using filenames.csv in the [File Organization Wiki Page]().
 
