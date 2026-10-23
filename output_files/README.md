@@ -1,18 +1,18 @@
 # Output File Package Readme
 
-## Example Input Files
+## Example Output Files
 These are the files output after you successfully run the QC application, but these are just examples of AMRDC's AWS data.  Edit your AWS file formats to match these input file format or alter the code to read in your data format. Some of these files only need to have certain lines of the file altered (e.g., filenames.csv), where others need to be redone for your AWS information (id.dat) and data (e.g., 089000320.r)
 
 There is further information on the file naming formats, file path explanation, and how some of these are input to the code using filenames.csv in the [File Organization Wiki Page]().
 
-Some of the input files are also output files, depending on what version of the code you are running (e.g., hry202003raw.txt).
+Some of the input files are also output files, depending on what version of the code you are running (e.g., hry202011raw.txt).
 
-The following table will outline each input file within this folder, an explanation of the file, and the generic file naming scheme. If you alter the naming scheme in both the code and `filenames.csv`, this will not be relevant; however, it will give you an idea of what is needed for input data to run the code (even if you have different file formatting). The first table will be the standard file format and usage. The second table will cover the different files needed for the tall tower version of the code. A rreadme (link) gives column/variable information for all of the files .
+The following table will outline each input file within this folder, an explanation of the file, and the generic file naming scheme. If you alter the naming scheme in both the code and `filenames.csv`, this will not be relevant; however, it will give you an idea of what is needed for input data to run the code (even if you have different file formatting). The first table will be the standard file format and usage. The second table will cover the different files needed for the tall tower version of the code. A readme (link) gives column/variable information for all of the files .
 
 <img width="1000" height="610" alt="qc_file_workflow" src="https://github.com/user-attachments/assets/eba52d4f-d4ae-4f96-9658-e27eb3ccaea0" />
 
 444.0 are missing data . different section to where peopne would need to edit the code if they dont want to match our input files. (line numbers, code definition). 
-Example of standard AWS with Harry AWS (ID:08900) for November 2020.
+Example of standard AWS with Harry AWS (ID: 08900) for November 2020.
 ## Standard AWS File List
 | Output File  | Explanation | File Naming Format |
 | ------------- | ------------- | ------------- |
