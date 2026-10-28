@@ -37,6 +37,7 @@ filenames.csv
 setting up for our .r files and their formatting. will need to be some changes depending on the input files, file type, please have id file that is the same. A rreadme (link) gives column/variable information.
 
 explain tall tower file differences
+
 Example of tall tower AWS with Elijah Tall Tower AWS (ID: 99616) for January 2025.
 ## Tall Tower File List
 filenames.csv and id.dat are also used. if the data were previously QC'ed, the raw file detailed above will be used as defined above, but with additional variables. 
