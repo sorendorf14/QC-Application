@@ -1,19 +1,19 @@
 # Output File Package Readme
 
-## Example Input Files
-These are the files output after you successfully run the QC application, but these are just examples of AMRDC's AWS data.  Edit your AWS file formats to match these input file format or alter the code to read in your data format. Some of these files only need to have certain lines of the file altered (e.g., filenames.csv), where others need to be redone for your AWS information (id.dat) and data (e.g., 089001120.r)
+## Example Output Files
+These are the files output after you successfully run the QC application and saved to the directories specified in `run_qc_all.py` and `filenames.csv`. The files in this directory are just examples of output data from quality controlling AMRDC's AWS data.
 
-There is further information on the file naming formats, file path explanation, and how some of these are input to the code using filenames.csv in the [File Organization Wiki Page]().
+There is further information on the file naming formats, file path explanation, and how some of these are input to the code using filenames.csv in the [File Organization and Setup](https://github.com/sorendorf14/QC-Application/wiki/File-Organization-and-Setup) wiki page.
 
-Some of the input files are also output files, depending on what version of the code you are running (e.g., hry202011raw.txt).
+Some of the output files you might have seen in the input files readme, depending on what version of the code you are running (e.g., hry202011raw.txt). These will always be output when saving the data, but these will not always be used as input files. 
 
-The following table will outline each input file within this folder, an explanation of the file, and the generic file naming scheme. If you alter the naming scheme in both the code and `filenames.csv`, this will not be relevant; however, it will give you an idea of what is needed for input data to run the code (even if you have different file formatting). The first table will be the standard file format and usage. The second table will cover the different files needed for the tall tower version of the code. A rreadme (link) gives column/variable information for all of the files. Example of standard AWS with Harry AWS (ID:08900) for November 2020.
+The following table will outline each output file within this folder, an explanation of the file, and the generic file naming scheme. If you alter the naming scheme in both the code and `filenames.csv`, this will not be relevant; however, it will give you an idea of what is output when you save the data (even if you have different file formatting). The first table will be the standard file format and usage. The second table will cover the different files needed for the tall tower version of the code. A readme (link) gives column/variable information for all of the files. Example of standard AWS with Harry AWS (ID: 08900) for November 2020.
 
 <img width="1000" height="610" alt="qc_file_workflow" src="https://github.com/user-attachments/assets/eba52d4f-d4ae-4f96-9658-e27eb3ccaea0" />
 
 Missing data are represented by 444.0 in AMRDC's files. 
 
-## Standard AWS File List
+## Standard AWS Output Files
 | Input File  | Explanation | File Naming Format |
 | ------------- | ------------- | ------------- |
 | hry202011raw.txt | Monthly quality controlled data with all standard meteorological variables at one level. | aaaYYYYMMraw.txt |
@@ -25,10 +25,11 @@ Missing data are represented by 444.0 in AMRDC's files.
 
 setting up for our .r files and their formatting. will need to be some changes depending on the input files, file type, please have id file that is the same. A rreadme (link) gives column/variable information.
 
+## Tall Tower
 explain tall tower file differences
 Example of tall tower AWS with Elijah Tall Tower AWS (ID: 99616) for January 2025.
 
-## Tall Tower Generating Monthly Files List
+### Tall Tower Generating Monthly Files List
 These files will only be output if you run `tt_create_dotr_dot10.py` to match the standard formatting of AMRDC's data files. Only variables at 4m will be included in the standard .r files, but all standard meteorological variables at all heights are included in the files with `_all` included in the file name. The csv is a standard csv with all the standard meteorological variables at all levels. Refer to "  COLUMN README  " for further explanation  
 
 | Example Input File  | Explanation | File Naming Format |
@@ -39,8 +40,8 @@ These files will only be output if you run `tt_create_dotr_dot10.py` to match th
 | 996160125.csv | Monthly csv file with output data. The file naming is station ID number, month, year abbreviation - last two digits of the year. | #####MMYY.csv |
 
 
-## Tall Tower QC App Additional File List
- if the data were previously QC'ed, the raw file detailed above will be used as defined above, but with additional variables. The files in the standard file output list will be output as well as the following files. 
+### Tall Tower Output File List 
+If the data were previously QC'ed, the raw file detailed above will be used as defined above, but with additional variables. The files in the standard file output list will be output as well as the following files. 
 
 | Example Output File  | Explanation | File Naming Format |
 | ------------- | ------------- | ------------- |
