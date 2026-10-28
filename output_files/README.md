@@ -11,7 +11,7 @@ The following table will outline each output file within this folder, an explana
 
 <img width="1000" height="610" alt="qc_file_workflow" src="https://github.com/user-attachments/assets/eba52d4f-d4ae-4f96-9658-e27eb3ccaea0" />
 
-Missing data are represented by 444.0 in AMRDC's files. 
+Missing data are represented by values of 444.0.
 
 ## Standard AWS Output Files
 | Input File  | Explanation | File Naming Format |
