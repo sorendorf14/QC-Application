@@ -11,7 +11,9 @@ The following table will outline each input file within this folder, an explanat
 
 <img width="1000" height="610" alt="qc_file_workflow" src="https://github.com/user-attachments/assets/eba52d4f-d4ae-4f96-9658-e27eb3ccaea0" />
 
-444.0 are missing data . different section to where peopne would need to edit the code if they dont want to match our input files. (line numbers, code definition). 
+Missing data are represented by values of 444.0.
+
+To create a file setup matching AMRDC's .r and .10 input files, you can create a new code by modifying `tt_create_dotr_dot10.py` and modeling the code off the standard file formatting (lines 97-126). 
 Example of standard AWS with Harry AWS (ID:08900) for November 2020.
 ## Standard AWS File List
 | Input File  | Explanation | File Naming Format |
