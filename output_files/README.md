@@ -50,22 +50,3 @@ If the data were previously QC'ed, the raw file detailed above will be used as d
 | elj202501q3h_all.txt | Monthly 3-hourly QC data with all standard meteorological variables at all levels. | aaaYYYYMMq3h_all.txt |
 
 What each column is for each code. The files that have column names are not included.
-
-| Column # | .r | .10 | .10 tall tower |   | raw.txt | q10, q1h, and q3h.txt | change log csv | qc change log csv | _all.r |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 1 | Julian day | Station ID | Julian Day |  |  |  |  |  |  |  
-| 2 | Observation number of the day  | Julian day | Observation Number |  |  |  |  |  |  |   
-| 3 | Temperature | Time (HHMMSS) | Voltage |  |  |  |  |  |  |  
-| 4 | Pressure | Temperature | Panel Temperature |  |  |  |  |  |  |  
-| 5 | Wind Speed | Panel Temperature |  |  |  |  |  |  |  |  
-| 6 | Wind Direction | Pressure |  |  |  |  |  |  |  |   
-| 7 | Relative Humidity | Wind Direction |  |  |  |  |  |  |  |  
-| 8 | deltaT | Wind Speed |  |  |  |  |  |  |  |  
-| 9 |  | n/a |  |  |  |  |  |  |  |  
-| 10 |  | Relative Humidity |  |  |  |  |  |  |  |   
-| 11 |  |  Wind Gust? |  |  |  |  |  |  |  |  
-| 12 |  | 1 |  |  |  |  |  |  |  |  
-| 13 |  | 2 |  |  |  |  |  |  |  |  
-| 14 |  | 3 |  |  |  |  |  |  |  |  
-| 15 |  | 4 |  |  |  |  |  |  |  |  
-| 16 |  |  |  |  |  |  |  |  |  |  
