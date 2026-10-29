@@ -4,7 +4,7 @@ Listing all the column names and other information for standard AWS files that d
 
 ## .r files
 
-The filenames of the data are set up as follows:  the first four digits are the ARGOS ID # of the unit, the next two are the month, followed by two more digits indicating the year.  All files have a .r extension.  So, a filename like 89060589.r would be data for site 8906 during May of 1989. If the file begins with a zero, i.e. 08965####.r, the ID# is actually only 4 digits, in this case, the ID# would really be 8965.
+The filenames of the data are set up as follows:  the first four digits are the ARGOS ID # of the unit, the next two are the month, followed by two more digits indicating the year.  All files have a .r extension.  So, a filename like 089000589.r would be data for site 8900 during May of 1989. If the file begins with a zero, i.e. 08900MMYY.r, the ID# is actually only 4 digits, in this case, the ID# would really be 8900.
 
 The first two lines of the .r files are the header. The data are organized in ten minute intervals.  The data are also uncorrected; i.e., they still have bad data points. 
 
@@ -22,3 +22,20 @@ All times listed are GMT and missing data are indicated as 444.0.  Wind directio
 
 ## .10 files
 
+The files have most of the same data as the .r files; however, there is panel temperature and voltage. These files are read in along with the .10 files to get panel temperature and voltage. The data are organized in ten minute intervals.  The data are also uncorrected; i.e., they still have bad data points. There are no headers in these files. 
+
+The columns are: 
+1. ID
+2. julian day
+3. time (hhmmss)
+4. temperature (degrees Celsius)
+5. panel temperature (degrees Celsius)
+6. pressure (millibars)
+7. wind direction (meteorological degrees) 
+8. wind speed (meters per second)
+10. humidity (percent)
+11. voltage
+12. col12
+13. col13
+14. col14
+15. col15
