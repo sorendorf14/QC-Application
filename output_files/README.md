@@ -37,7 +37,7 @@ These files will only be output if you run `tt_create_dotr_dot10.py` to match th
 | Example Input File  | Explanation | File Naming Format |
 | ------------- | ------------- | ------------- |
 | 996160125.r | Monthly .r file with one level of data with standard meteorological variables. The file naming is station ID number, month, year abbreviation - last two digits of the year. | #####MMYY.r |
-| 996160125_all.r | Monthly .r file with ALL output data. The file naming is station ID number, month, year abbreviation - last two digits of the year. | #####MMYY.r |
+| 996160125_all.r | Monthly .r file with ALL output data. The file naming is station ID number, month, year abbreviation - last two digits of the year. | #####MMYY_all.r |
 | 996160125.10 | Monthly .10 file with output data. The file naming is station ID number, month, year abbreviation - last two digits of the year.| #####MMYY.10 |
 | 996160125.csv | Monthly csv file with output data. The file naming is station ID number, month, year abbreviation - last two digits of the year. | #####MMYY.csv |
 
