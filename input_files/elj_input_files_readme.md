@@ -1,6 +1,7 @@
 # Readme detailing all column information for Elijah Tall Tower input files without included column names. 
 
 ## Column explanations for Elijah Tall Tower text files (e.g., ElijahTallTower.20251123.txt)
+These files only include 10-minute data for one day. 
 
 Columns:
 1. UTC computer time
@@ -51,6 +52,41 @@ Columns:
 46. Average corrected longwave down (W/m^2)  (correcting for sensor body temperature)
     
 # Column explanations for Elijah Tall Tower .csv input files (e.g., 99616032025.csv)
+1. date time (YYYY-MM-DD HH:MM:SS)
+2. year (YYYY)
+3. julian day
+4. month
+5. day of the month
+6. time (HH:MM)
+7. 1meter temperature (C)
+8. 2m temperature (C)
+9. 4m temperature (C)
+10. 7m temperature (C)
+11. 15m temperature (C)
+12. 30m temperature (C)
+13. pressure (hectopascals)
+14. 1m wind speed (meters per second)
+15. 1m wind direction (degrees)
+16. 2m wind speed (m/s)
+17. 2m wind direction (degrees)
+18. 4m wind speed (meters per second)
+19. 4m wind direction (degrees)
+20. 7m wind speed (m/s)
+21. 7m wind direction (degrees)
+22. 15m wind speed (m/s)
+23. 15m wind direction (degrees)
+24. 30m wind speed (m/s)
+25. 30m wind direction (degrees)
+26. 4m relative humidity (%)
+27. 7m relative humidity (%)
+28. 15m relative humidity (%)
+29. 30m relative humidity (%)
+30. Acoustic Depth Gauge (m)
+31. Net Shortwave Radiation (Watts per meter squared)
+32. Net Longwave Radiation (W/m2)
+33. panel temperature (C)
+34. voltage (volts)
+
 
 
 
