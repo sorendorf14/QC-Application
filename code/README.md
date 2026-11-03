@@ -1,4 +1,4 @@
-# Quality Control Application Code
+# Quality Control Application Code Package
 
 All the code for both the standard and tall tower versions of the QC code. More information on the input files for the code, what runs when, and other explanations is in the [File Organization Wiki]().
 
