@@ -21,8 +21,8 @@ The following table will outline each output file within this folder, an explana
 | hry202011q10.txt | Monthly 10-minute quality (QC'ed) controlled data with all standard meteorological variables at one level. | aaaYYYYMMq10.txt |
 | hry202011q1h.txt | Monthly 1-hourly QC'ed data with all standard meteorological variables at one level. | aaaYYYYMMq1h.txt |
 | hry202011q3h.txt | Monthly 3-hourly QC'ed data with all standard meteorological variables at one level. | aaaYYYYMMq3h.txt |
-| 089001120_qc_output.csv  | Backup csv file that outputs the QC'ed data. Since it is a backup, it is not formatted as well as the normal output data. | #####MMYY_qc_output.csv |
-| 089001120_change_log.csv | Log file outputting all the data removed for one month during the QC process. Shows the date and time of the removed data, variable removed, the changed value, and the replaced value. | #####MMYY_change_log.csv |
+| 089001120_qc_output.csv  | Backup csv file that outputs the QC'ed data. Since it is a backup, it is not formatted as well as the normal output data. These are saved in the Downloads folder or wherever files downloaded from the internet are automatically saved. | #####MMYY_qc_output.csv |
+| 089001120_change_log.csv | Log file outputting all the data removed for one month during the QC process. Shows the date and time of the removed data, variable removed, the changed value, and the replaced value. This is a backup change log to keep for record keeping. These are saved in the Downloads folder or wherever files downloaded from the internet are automatically saved. | #####MMYY_change_log.csv |
 
  A rreadme (link) gives column/variable information.
 
