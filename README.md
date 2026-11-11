@@ -35,6 +35,6 @@ Detailed tutorials for installation, running the code, organization, and trouble
 - [Cloning a Repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 - [Remote Repositories](https://docs.github.com/en/get-started/git-basics/about-remote-repositories)
 
-
+Reference/license information??? special thanks????? anything UW requires??? 
 If you have questions not answered by the wiki or readme files, please contact test-example@wisc.edu. 
 
